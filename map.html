@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_60250bd1aa1748e8be5a2fb41f68c879 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_60250bd1aa1748e8be5a2fb41f68c879" ></div>
+        
+</body>
+<script>    
+    
+            var map_60250bd1aa1748e8be5a2fb41f68c879 = L.map(
+                "map_60250bd1aa1748e8be5a2fb41f68c879",
+                {
+                    center: [1.35255, 103.8258],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11.4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cc9fff584c0b467697506f962ec6d3b8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_60250bd1aa1748e8be5a2fb41f68c879);
+        
+    
+            var marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde = L.markerClusterGroup(
+                {}
+            );
+            map_60250bd1aa1748e8be5a2fb41f68c879.addLayer(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            var marker_61e6976db8724e9bab1a11bade982066 = L.marker(
+                [1.339981, 103.75572],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_61e6976db8724e9bab1a11bade982066.bindTooltip(
+                `<div>
+                     Acacia Lodge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5be5f553375a4ea0b22d3550d1492700 = L.marker(
+                [1.4560244, 103.7986363],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_5be5f553375a4ea0b22d3550d1492700.bindTooltip(
+                `<div>
+                     Alaunia Lodge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5f2d9efe94844629bde7daaff530117 = L.marker(
+                [1.3204172, 103.7301385],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_e5f2d9efe94844629bde7daaff530117.bindTooltip(
+                `<div>
+                     Avery Lodge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_849b200d98d644a7a5d056b2686ef0b7 = L.marker(
+                [1.3328199, 103.695299],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_849b200d98d644a7a5d056b2686ef0b7.bindTooltip(
+                `<div>
+                     Blue Stars Dormitory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25ba5fb20ab142e6af37453083d8fbde = L.marker(
+                [1.261673, 103.832155],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_25ba5fb20ab142e6af37453083d8fbde.bindTooltip(
+                `<div>
+                     Brani Residence
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55b7afbb7c584b8d8334b8a0768af77c = L.marker(
+                [1.373417, 103.7486494],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_55b7afbb7c584b8d8334b8a0768af77c.bindTooltip(
+                `<div>
+                     CCK Dorm A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f6557b9bbca44bdabcab181f9bfd874 = L.marker(
+                [1.3717055, 103.7470687],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_4f6557b9bbca44bdabcab181f9bfd874.bindTooltip(
+                `<div>
+                     CCK Dorm B
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_289f807c128a4ede86e7aef6776a1b08 = L.marker(
+                [1.3733027, 103.7493172],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_289f807c128a4ede86e7aef6776a1b08.bindTooltip(
+                `<div>
+                     CCK Dorm C
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebf0de01f95d4a0a9ab71b61825e02f1 = L.marker(
+                [1.2724532, 103.6376793],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_ebf0de01f95d4a0a9ab71b61825e02f1.bindTooltip(
+                `<div>
+                     CDPL Tuas Dormitory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f324938b44f477589bb14b598caadeb = L.marker(
+                [1.3178285, 103.733024],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_4f324938b44f477589bb14b598caadeb.bindTooltip(
+                `<div>
+                     Cassia @ Penjuru
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ab6d19f34f540ffb359530478e9b64a = L.marker(
+                [1.3222239, 103.7278306],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_0ab6d19f34f540ffb359530478e9b64a.bindTooltip(
+                `<div>
+                     Centurion - Lian Beng (Papan) Pte Ltd
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dbe988428dcf44df9a49bb8cd14e4633 = L.marker(
+                [1.3128115, 103.9978206],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_dbe988428dcf44df9a49bb8cd14e4633.bindTooltip(
+                `<div>
+                     Changi Lodge 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a26b56f2834442c8bb297ff000bc8c9 = L.marker(
+                [1.4598279, 103.8201],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_8a26b56f2834442c8bb297ff000bc8c9.bindTooltip(
+                `<div>
+                     Cochrane Lodge 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07226d2ba751456e999d31c27b1e5c8f = L.marker(
+                [1.4614063, 103.8180487],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_07226d2ba751456e999d31c27b1e5c8f.bindTooltip(
+                `<div>
+                     Cochrane Lodge 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d09850e126d4b11bb179e21fe21d44f = L.marker(
+                [1.4613355, 103.8132259],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_2d09850e126d4b11bb179e21fe21d44f.bindTooltip(
+                `<div>
+                     Dorm 13A Admiralty Street
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c0d38d00b5e4e7bb9e17638cfa64e34 = L.marker(
+                [1.4610606, 103.8116771],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_7c0d38d00b5e4e7bb9e17638cfa64e34.bindTooltip(
+                `<div>
+                     Dorm 19A Admiralty Street
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d700109335a40ba9b5b3d5e65727749 = L.marker(
+                [1.4610606, 103.8116771],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_5d700109335a40ba9b5b3d5e65727749.bindTooltip(
+                `<div>
+                     Dorm 21A & 23A Admiralty Street
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ab65ee0f60b444da560a05ccbc8bdb7 = L.marker(
+                [1.338132, 103.9096411],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_1ab65ee0f60b444da560a05ccbc8bdb7.bindTooltip(
+                `<div>
+                     Homestay Lodge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_616488d3f4ce4ca296e62b94fabe2f60 = L.marker(
+                [1.459892, 103.800434],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_616488d3f4ce4ca296e62b94fabe2f60.bindTooltip(
+                `<div>
+                     Hulett Dormitory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f893c2c50c0742f7992d38dc1f2b7de1 = L.marker(
+                [1.2888927, 103.6267754],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_f893c2c50c0742f7992d38dc1f2b7de1.bindTooltip(
+                `<div>
+                     JTC Space @ Tuas Biomedical Park Dormitory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4c41d3c3d2d4bd1aa327b746d62a196 = L.marker(
+                [1.3294321, 103.6767506],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_e4c41d3c3d2d4bd1aa327b746d62a196.bindTooltip(
+                `<div>
+                     Jurong Apartments
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a65f8d586eb4f69aa941be00632427f = L.marker(
+                [1.3161141, 103.7313267],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_3a65f8d586eb4f69aa941be00632427f.bindTooltip(
+                `<div>
+                     Jurong Penjuru Dormitory 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35e704017d324bf3acd73d23d21ecd8b = L.marker(
+                [1.316245, 103.732232],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_35e704017d324bf3acd73d23d21ecd8b.bindTooltip(
+                `<div>
+                     Jurong Penjuru Dormitory 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f374004ea436491e98fb6a575ce49aa7 = L.marker(
+                [1.3286465, 103.6952288],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_f374004ea436491e98fb6a575ce49aa7.bindTooltip(
+                `<div>
+                     Kian Teck Dormitory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a7f85367fc742a9b3ecb6bd37a4b8cb = L.marker(
+                [1.332903, 103.693899],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_5a7f85367fc742a9b3ecb6bd37a4b8cb.bindTooltip(
+                `<div>
+                     Kian Teck Hostel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_285ea397e81b4f57b731e91fdbd0a58d = L.marker(
+                [1.4316705, 103.7598538],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_285ea397e81b4f57b731e91fdbd0a58d.bindTooltip(
+                `<div>
+                     Kranji Lodge 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d8d592e40d54ddabca97b216414659d = L.marker(
+                [1.4357076, 103.7491848],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_1d8d592e40d54ddabca97b216414659d.bindTooltip(
+                `<div>
+                     Kranji Way Dormitory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfc5683eb7ab4dc39d89d36f72a2b8ef = L.marker(
+                [1.4561613, 103.7873463],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_cfc5683eb7ab4dc39d89d36f72a2b8ef.bindTooltip(
+                `<div>
+                     North Coast Lodge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92fcdbbbd4624ca9abf19fcfe54a3770 = L.marker(
+                [1.4190538, 103.8965462],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_92fcdbbbd4624ca9abf19fcfe54a3770.bindTooltip(
+                `<div>
+                     PPT Lodge 1A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c88c026c73b7487ba9970267a1766993 = L.marker(
+                [1.416744, 103.8960838],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_c88c026c73b7487ba9970267a1766993.bindTooltip(
+                `<div>
+                     PPT Lodge 1B
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_df7cb7c662d945f6843e8629d1fdfde0 = L.marker(
+                [1.2848037, 103.775677],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_df7cb7c662d945f6843e8629d1fdfde0.bindTooltip(
+                `<div>
+                     Pasir Panjang Residence
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_730e3ff96aa9490781d39b01ca617d12 = L.marker(
+                [1.2525586, 103.6138551],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_730e3ff96aa9490781d39b01ca617d12.bindTooltip(
+                `<div>
+                     SCM Tuas Lodge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_939e5de714614d7185de7e987542d68e = L.marker(
+                [1.3369367, 103.8846556],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_939e5de714614d7185de7e987542d68e.bindTooltip(
+                `<div>
+                     Shaw Lodge Dormitory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4e0c95486b140388dd494d92dff2a1e = L.marker(
+                [1.32214, 103.6608261],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_d4e0c95486b140388dd494d92dff2a1e.bindTooltip(
+                `<div>
+                     Space @ Tuas Apartment
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86500a4ae91f4989a79b9252cb6332fc = L.marker(
+                [1.3765012, 103.7184214],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_86500a4ae91f4989a79b9252cb6332fc.bindTooltip(
+                `<div>
+                     Sungei Tengah Lodge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8251e5a9a004734805712961ab6f1d6 = L.marker(
+                [1.366664, 103.929454],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_e8251e5a9a004734805712961ab6f1d6.bindTooltip(
+                `<div>
+                     Tampines Dormitory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72a9c4b4c88843a8979f432e0dc2fe9e = L.marker(
+                [1.3020951, 103.800118],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_72a9c4b4c88843a8979f432e0dc2fe9e.bindTooltip(
+                `<div>
+                     Temporary Dormitory at 121 Queensway
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7af76d924c1f43a492960c1717dbd08c = L.marker(
+                [1.3378017, 103.9026321],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_7af76d924c1f43a492960c1717dbd08c.bindTooltip(
+                `<div>
+                     The Leo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ae41db1dd9e49e1b113b0b685143c8f = L.marker(
+                [1.338199, 103.753148],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_7ae41db1dd9e49e1b113b0b685143c8f.bindTooltip(
+                `<div>
+                     Toh Guan Dormitory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aec5afe58e6349a99823c0a6ae3eeb25 = L.marker(
+                [1.314398, 103.627911],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_aec5afe58e6349a99823c0a6ae3eeb25.bindTooltip(
+                `<div>
+                     Tuas Seatown Dormitory Pte Ltd (FCD)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d300d8b3fda64cc5b818413349b11544 = L.marker(
+                [1.2722916, 103.6324395],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_d300d8b3fda64cc5b818413349b11544.bindTooltip(
+                `<div>
+                     Tuas South Dormitory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10d1fc3be41e4362b6ab4c834199e892 = L.marker(
+                [1.3140821, 103.6256902],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_10d1fc3be41e4362b6ab4c834199e892.bindTooltip(
+                `<div>
+                     Tuas View Dormitory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8092c53746a84bdc81628d7271d9d636 = L.marker(
+                [1.3358255, 103.7514997],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_8092c53746a84bdc81628d7271d9d636.bindTooltip(
+                `<div>
+                     Westlite Dormitory (Toh Guan) Pte Ltd
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c84934a36a64743adc55d73789519e9 = L.marker(
+                [1.4063852, 103.7597008],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_8c84934a36a64743adc55d73789519e9.bindTooltip(
+                `<div>
+                     Westlite Juniper
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94a0c34f44374292abf876ead0501027 = L.marker(
+                [1.40717, 103.758193],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_94a0c34f44374292abf876ead0501027.bindTooltip(
+                `<div>
+                     Westlite Mandai Dormitory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5529c15db6f4d62b49b42d03e301c95 = L.marker(
+                [1.3214687, 103.6504491],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_b5529c15db6f4d62b49b42d03e301c95.bindTooltip(
+                `<div>
+                     Westlite Tuas Ave 2 Dormitory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68516f3f68ce4b16a1c42218973d2c66 = L.marker(
+                [1.4608308, 103.8097808],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_68516f3f68ce4b16a1c42218973d2c66.bindTooltip(
+                `<div>
+                     Westlite Woodlands Dormitory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e109c71181a4007b446f9285cc01ae2 = L.marker(
+                [1.454745, 103.80461],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_4e109c71181a4007b446f9285cc01ae2.bindTooltip(
+                `<div>
+                     Woodlands Dormitory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3bc7fc99698644f39db44b4a81ec3b4a = L.marker(
+                [1.4496441, 103.7959156],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_3bc7fc99698644f39db44b4a81ec3b4a.bindTooltip(
+                `<div>
+                     Woodlands Lodge 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e6b2cc96fc449cda4622091a5b2b894 = L.marker(
+                [1.4509949, 103.7964426],
+                {}
+            ).addTo(marker_cluster_f7dfbeb4a5824c26ae2889822b64dbde);
+        
+    
+            marker_2e6b2cc96fc449cda4622091a5b2b894.bindTooltip(
+                `<div>
+                     Woodlands Lodge 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
